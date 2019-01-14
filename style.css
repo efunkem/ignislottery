@@ -1,0 +1,77 @@
+#menu{
+	margin-bottom: 0px;
+}
+
+.everything {
+	background: #FF5F6D;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	text-align: center;
+	padding-top: 20px;
+	min-height: 100%;
+}
+
+h1 {
+	color: black;
+	margin-top: 15px;
+}
+
+#upper {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#upper2{
+  box-shadow: 0 2px 10px 1px hsla(0, 0%, 0%, 0.4);
+  border-top: 3px solid black;
+}
+
+#currentBalance{
+  background-color: #F8F8F8;
+}
+
+#nextDrawing{
+  border-top: none;
+}
+
+#currentBlock{
+  background-color: #F8F8F8;
+  border: none;
+  border-bottom: none;
+}
+
+#estTimeRemaining {
+  border: none;
+}
+
+#form1 {
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    border-top: 3px solid black;
+    box-shadow: 0 2px 10px 1px hsla(0, 0%, 0%, 0.4);
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#ignis {
+  padding-bottom: 10px;
+}
+
+#secretPhrase {
+  padding-bottom: 10px;
+  max-width: 590px;
+  width: 95%;
+}
+
+@media only screen and (max-width: 766px) {
+  #form1{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+  }
+  #secretPhrase{
+    max-width: 90%;
+  }
+}

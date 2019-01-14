@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CryptoLottery</title>
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+</head>
+<body>
+	
+	<div id="menu" class="ui menu">
+		<div class="header item">CryptoLottery</div>
+		<div class="right menu">
+			<a class="item">Learn Web Dev With Crypto</a>
+			<a class="item">About</a>
+		</div>
+	</div>
+
+<div class="everything">
+
+	<h1>Ignis TestNet Lottery</h1>
+
+	<div class="ui centered grid" id="upper">
+        <div class="ui card" id="upper2">
+            <div class="content" id="currentBalance">
+                <div class="header">Current Jackpot</div>
+                <div class="ui center aligned" id="jackpotAmount"></div>
+            </div>
+            <div class="content" id="nextDrawing">
+                <div class="header">Next Drawing</div>
+                <div class="ui center aligned" id="nextDraw"></div>
+            </div>
+            <div class="content" id="currentBlock">
+                <div class="header">Current Block</div>
+                <div class="ui center aligned" id="blockNumber"></div>
+            </div>
+            <div class="content" id="estTimeRemaining">
+                <div class="header">Time to Drawing</div>
+                <div class="ui center aligned" id="timeRemaining"></div>
+            </div>
+        </div>
+	</div>
+
+	<div class="ui container">
+		<form id="form1" class="ui card">
+			<div class="ui content">
+				<div class="ui right labeled input content" id="ignis">
+					<input type="text" id="amount" placeholder="1000" autocomplete="off">
+					<div class="ui label">Ignis</div>
+				</div>
+				<div class="ui right labeled input content" id="secretPhrase">
+					<input type="text" id="passphrase" placeholder="football table shoe puppy coffee birthday lobster lamp candle bed tooth water">
+					<div class="ui label">Secret Phrase</div>	
+				</div>
+				<input class="ui black button" id="mybutton" type="button" value="Enter Lottery"/>
+			</div>
+		</form>
+	</div>
+
+</div>
+
+<script src="bundle.js"></script>
+</body>
+</html>
